@@ -1,0 +1,9 @@
+name: Build & Deploy (Production)
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/web/**'
+      - 'packages/shared/axios-config/**'
